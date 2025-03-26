@@ -18,7 +18,6 @@ function partyTime() {
 }
 
 
-///////////////////////////////////////////////
-
-// OSU GAME!!!!!!!!!!!!!
-
+function fakeout() {
+    alert ("Just kidding I trashed that")
+}
