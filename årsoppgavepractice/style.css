@@ -23,4 +23,24 @@
     display: flex;
     gap: 40px;
     justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttongame {
+    padding: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 30px;
+}
+

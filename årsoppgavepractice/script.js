@@ -1,3 +1,5 @@
+// MAIN PAGE!!!!!!!!!!!!!!
+
 element.addEventListener("click", myFunction);
 
 function myFunction() {
@@ -11,6 +13,12 @@ function myFunction() {
 // }
 
 function partyTime() {
-    let sound = new Audio("/media/confetti-pop.mp3"); // allows audio overlapping for spam
+    let sound = new Audio("media/confetti-pop.mp3"); // allows audio overlapping for spam
     sound.play();
 }
+
+
+///////////////////////////////////////////////
+
+// OSU GAME!!!!!!!!!!!!!
+
