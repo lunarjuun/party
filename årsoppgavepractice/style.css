@@ -1,0 +1,26 @@
+.content1 {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.buttongreet {
+    background-color: red;
+    padding: 30px;
+}
+
+.buttongreet:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.partypopper {
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
