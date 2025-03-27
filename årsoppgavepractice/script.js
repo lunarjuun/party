@@ -17,7 +17,6 @@ function partyTime() {
     sound.play();
 }
 
+// 
 
-function fakeout() {
-    alert ("Just kidding I trashed that")
-}
+const deck = []
