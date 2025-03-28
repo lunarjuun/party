@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -6,10 +6,12 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def root():
-    return '<h1>her kommer html</h1>'
+def IJPOJPO():
+    return render_template('index.html')
 
-
+@app.route('/blackjack')
+def game():
+    return render_template('blackjack.html')
 
 
 if __name__ == '__main__':

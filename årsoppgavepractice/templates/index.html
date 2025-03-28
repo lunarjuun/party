@@ -3,13 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Index</title>
 </head>
-<body>
-    <h1>
-        Ridiculous Website
-        </h1>
+<body class="indexPage">
+    <h1> Ridiculous Website </h1>
     <div class="container">
         <div class="content1">
             <div class="greeting">
@@ -20,7 +18,7 @@
             <img src="media/partypopper.png" class="partypopper">
                     click to celebrate
                     </button>
-            <audio id="confettiSound" src="media/confetti-pop.mp3"></audio>
+            <audio id="confettiSound" src="årsoppgavepractice/media/confetti-pop.mp3"></audio>
         </div>
 
     <div class="content2">
@@ -32,11 +30,8 @@
         <button>Bored of this website? Play a game!</button>
     </a>
 
-
-
     </div>
 
-
 </body>
-<script src="script.js"></script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
 </html>

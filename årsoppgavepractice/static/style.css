@@ -44,9 +44,15 @@ h1 {
     padding: 30px;
 }
 
+.indexPage {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    background-color: aliceblue;
+}
+
 /**/
 
-body {
+.blackjackPage {
     text-align: center;
     font-family: Arial, sans-serif;
     background-color: #228B22;
