@@ -13,7 +13,7 @@ function myFunction() {
 // }
 
 function partyTime() {
-    let sound = new Audio("media/confetti-pop.mp3"); // allows audio overlapping for spam
+    let sound = new Audio("årsoppgavepractice/media/confetti-pop.mp3"); // allows audio overlapping for spam
     sound.play();
 }
 
