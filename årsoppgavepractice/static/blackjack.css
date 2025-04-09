@@ -1,0 +1,92 @@
+body, html {
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+    zoom: 96%;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.players, .dealercards {
+    padding-bottom: 10px;
+}
+
+
+h2, p, button {
+    margin: 0;
+    font-family: 'Times New Roman';
+}
+
+#results {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.game-window {
+    width: 100%;
+    max-width: 1000px;
+    max-height: 420px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-image: url("../static/media/blackjack_media/background-image.jpg");
+    background-size: cover;
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.9);
+    padding-bottom: 80px;
+    padding-top: 10px;
+}
+
+
+.playagain {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(151, 6, 35);
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    position: fixed;
+    margin-top: 392px;
+    margin-left: -60px;
+}
+
+/* Annoying Dealer */
+
+.harley {
+    height: 300px;
+}
+
+/* Card Styling */
+
+#dealer-cards img, #your-cards img {
+    height: 125px;
+    width: 85px;
+}
+
+/* Button Styling */
+
+#hit, #stay {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+
+    color: black;
+    background-color: rgb(151, 6, 35);
+}
+
+/* Background Image */
+
+.bg {
+    background-image: url("../static/media/blackjack_media/casino-bokeh.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

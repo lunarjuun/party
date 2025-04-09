@@ -6,17 +6,26 @@ function myFunction() {
     alert ("Hello World!");
 }
 
-// OLD PARTY TIME
-//  function partyTime() {
-//     let sound = document.getElementById("confettiSound");
-//     sound.play();
-// }
-
 function partyTime() {
-    let sound = new Audio("årsoppgavepractice/media/confetti-pop.mp3"); // allows audio overlapping for spam
+    let sound = new Audio(audioPath); // Now uses Flask's path
     sound.play();
 }
 
-// 
+window.onload = function () {
+    const img = document.getElementById('spinner');
+    let angle = 0; // starting angle
 
-const deck = []
+    function spin() {
+        angle += 10; // degrees spun each frame
+        img.style.transform = `rotate(${angle}deg)`; // instead of using style u can just do it here
+        requestAnimationFrame(spin); // makes it smoothhh    
+    }
+
+ spin(); // call the function
+
+}
+
+
+
+// MARIADB SCRIPTING
+

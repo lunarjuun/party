@@ -7,18 +7,18 @@
     <title>Index</title>
 </head>
 <body class="indexPage">
-    <h1> Ridiculous Website </h1>
+    <h1> Index </h1>
     <div class="container">
         <div class="content1">
             <div class="greeting">
                 <button onclick="myFunction()" class="buttongreet"> click to greet </button>
-            </div>        
+            </div>
             
             <button onclick="partyTime()" class="buttonconfetti">
-            <img src="static/media/partypopper.png" class="partypopper">
+            <img src="../static/media/partypopper.png" class="partypopper">
                     click to celebrate
                     </button>
-            <audio id="confettiSound" src="årsoppgavepractice/media/confetti-pop.mp3"></audio>
+                    <audio id="confettiSound" src="{{ url_for('static', filename='../static/media/confetti-pop.mp3') }}"></audio>
         </div>
 
     <div class="content2">
@@ -26,12 +26,17 @@
         <label for="item1"> Something to do </label>
     </div>
 
-    <a href="blackjack.html">
-        <button>Bored of this website? Play a game!</button>
+    <a href="/blackjack">
+        <button>Bored of this website? Play a game</button>
     </a>
+
+    <img src="../static/media/fat.png" id="spinner">
 
     </div>
 
 </body>
+<script>
+    const audioPath = "{{ url_for('static', filename='media/confetti-pop.mp3') }}";
+</script>
 <script src="{{ url_for('static', filename='script.js') }}"></script>
 </html>

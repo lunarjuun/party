@@ -50,31 +50,7 @@ h1 {
     background-color: aliceblue;
 }
 
-/**/
-
-.blackjackPage {
-    text-align: center;
-    font-family: Arial, sans-serif;
-    background-color: #228B22;
-    color: white;
-}
-
-#game-area {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin: 20px;
-}
-
-#dealer, #player {
-    border: 2px solid white;
-    padding: 10px;
-    width: 200px;
-}
-
-button {
-    margin: 10px;
-    padding: 10px;
-    font-size: 18px;
-    cursor: pointer;
+#spinner {
+    width: 100px;
+    height: 100px;
 }

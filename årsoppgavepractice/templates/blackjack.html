@@ -3,32 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <title>Blackjack</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='blackjack.css') }}">
+
 </head>
-<body class="blackjackPage">
-    <div class="overtologin">
-        <p>Log in to see scores</p>
-    </div>
-    <h1>Blackjack</h1>
-    <div id="game-area">
-        <div id="dealer">
-            <h2>Dealer</h2>
-            <div id="dealer-cards"></div>
-            <p id="dealer-score">Score: 0</p>
-        </div>
-        <div id="player">
-            <h2>Player</h2>
-            <div id="player-cards"></div>
-            <p id="player-score">Score: 0</p>
-        </div>
-    </div>
-    <button id="deal">Deal</button>
-    <button id="hit">Hit</button>
-    <button id="stand">Stand</button>
-    <p id="result"></p>
 
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+<body class="bg">
 
+        <img src="../static/media/dealer/annoying-dealer.png" class="harley">
+
+    <div class="game-window">
+        <h2 class="players">Dealer: <span id="dealer-sum"></span></h2>
+        <div id="dealer-cards" class="dealercards">
+            <img id="hidden" src="../static/media/cards/BACK.png">
+        </div>
+
+        <h2 class="players"> You: <span id="your-sum"></span></h2>
+        <div id="your-cards"></div>
+
+        <br>
+        <button id="hit">Hit</button>
+        <button id="stay">Stay</button>
+        <p id="results"></p>
+    </div>
+        <button id="playAgain" class="playagain">Play Again?</button>
+
+        <form action="/save_score", method="post">
+            <input type="text" id="username" placeholder="Name">
+            <input type="text" id="score" placeholder="Score">
+            <button type="submit">Save score</button>
+        </form>
+    
 </body>
+
+<script src="{{ url_for('static', filename='blackjack.js') }}"></script>
 </html>
