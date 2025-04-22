@@ -1,5 +1,5 @@
 # FAQ
-Frequently asked questions about my project.
+Frequently asked questions about my project from those who have tried it out or seen it.
 
 ## Blackjack
 Q: Is the Ace worth 1 or 11?
