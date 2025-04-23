@@ -3,5 +3,10 @@
 
 
 ## Målgruppe
+Siden mitt prosjekt er et spill, så er målgruppen min folk som trenger noe å sløse tid på.
+
 ## Begrunnelser
-## Universell Utforming
+
+
+## Universell utforming
+Jeg passer på at all tekst er leselig, og bakgrunn har kontrast med tekst.
