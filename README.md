@@ -8,3 +8,6 @@ Siden mitt prosjekt er et spill, så er målgruppen min folk som trenger noe å 
 
 ## Universell utforming
 Jeg passer på at all tekst er leselig, og bakgrunn har kontrast med tekst. Jeg har også passende tekststørrelse på både landesiden og på spillsiden.
+
+## Media filer
+Bildene av kortstokken kommer fra en open source.
