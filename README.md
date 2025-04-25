@@ -11,3 +11,7 @@ Jeg passer på at all tekst er leselig, og bakgrunn har kontrast med tekst. Jeg 
 
 ## Media filer
 Bildene av kortstokken kommer fra en open source.
+
+---
+
+## Om du kloner prosjektet mitt:
