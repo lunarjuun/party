@@ -6,5 +6,7 @@ To win against the dealer in blackjack, you have to get as close as you can to 2
 
 ### Card Values
 2-10: Value reflected by the displayed number.
+
 J-Q-K: Face cards are all worth 10.
+
 A: The Ace is either worth 1 or 11, depending on if you exceed 21 with the cards you already have. The code already accounts for this possibility, and converts the value of the Ace to 1 automatically once you surpass 21.
