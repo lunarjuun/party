@@ -44,4 +44,4 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 # get: spørre/hente
-# post: bruh i tvil
+# post: bruk i tvil
