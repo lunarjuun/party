@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 import mysql.connector
+import pymysql
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
 
@@ -29,6 +30,14 @@ def score():
         password="dom123",
         database="scores",
         port=3306
+    )
+
+def get_connection():
+    return pymysql.connect(
+        host="localhost",
+        user="dom",
+        password="dom123",
+        database="scores"
     )
 
     cursor = conn.cursor()

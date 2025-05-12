@@ -26,14 +26,24 @@
         <button id="stay">Stay</button>
         <p id="results"></p>
     </div>
+
+    <div class="botHalf">
         <button id="playAgain" class="playagain">Play Again?</button>
 
-        <form action="/save_score", method="get">
-            <input type="text" id="username" placeholder="Name" name="username">
-            <input type="text" id="score" placeholder="Score" name="score">
-            <button type="submit">Save score</button>
+                <div class="submitScore">
+                    <form action="/save_score", method="get" id="submitScore">
+                        <input type="text" id="username" placeholder="Name" name="username">
+                        <input type="text" id="score" placeholder="Score" name="score">
+                </div>
+                    <button type="submit">Save score</button>
+
+
         </form>
-    
+    </div>
+        <a href="index.html">
+            <button class="playagain">Leave</button>
+        </a>
+
 </body>
 
 <script src="{{ url_for('static', filename='blackjack.js') }}"></script>

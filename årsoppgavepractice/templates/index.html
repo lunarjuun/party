@@ -9,11 +9,6 @@
 <body class="indexPage">
     <h1> Index </h1>
     <div class="container">
-        <div class="content1">
-            <div class="greeting">
-                <button onclick="myFunction()" class="buttongreet"> click to greet </button>
-            </div>
-            
             <button onclick="partyTime()" class="buttonconfetti">
             <img src="../static/media/partypopper.png" class="partypopper">
                     click to celebrate
@@ -21,18 +16,10 @@
                     <audio id="confettiSound" src="{{ url_for('static', filename='../static/media/confetti-pop.mp3') }}"></audio>
         </div>
 
-    <div class="content2">
-        <input type="checkbox" id="checkbox" name="item1" value="item">
-        <label for="item1"> Something to do </label>
-    </div>
-
     <a href="/blackjack">
         <button>Bored of this website? Play a game</button>
     </a>
 
-    <img src="../static/media/fat.png" id="spinner">
-
-    </div>
 
 </body>
 <script>

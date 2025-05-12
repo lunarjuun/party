@@ -91,3 +91,21 @@ h2, p, button {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* ///////////// MEDIA QUERIES //////////// */
+
+
+@media all and (max-width: 600px) {
+
+    .game-window {
+        width: 23rem;
+        height: 23rem;
+        padding-bottom: 9rem;
+    }
+
+    #submitScore {
+        margin-top: 20rem;
+        width: 10rem;
+        background-color: red;
+    }
+}
