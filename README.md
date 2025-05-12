@@ -1,6 +1,6 @@
 # Årsoppgave Vår 2025 — Blackjack Web Game 🃏
 ## Dominic Aramis, 2IMB
-![Dealer](static/media/dealer/annoying-dealer.png)
+![Dealer](årsoppgavepractice\static\media\dealer\annoying-dealer.png)
 
 A browser-based Blackjack game built using JavaScript, ran on a python waitress server.
 
