@@ -7,17 +7,19 @@
     <title>Index</title>
 </head>
 <body class="indexPage">
-    <h1> Play Blackjack </h1>
+    <div class="topText">
+        <h1> Play Blackjack </h1>
+        <p class="topP"> Web-server version of Blackjack. </p>
+    </div>
     <div class="container">
-            <button onclick="partyTime()" class="buttonconfetti">
-            <img src="../static/media/partypopper.png" class="partypopper">
-                    </button>
-                    <audio id="confettiSound" src="{{ url_for('static', filename='../static/media/confetti-pop.mp3') }}"></audio>
+    <a href="/blackjack">
+        <button class="playGame">Play Game</button>
         </div>
 
-    <a href="/blackjack">
-        <button class="playagain">Play Game</button>
     </a>
+        <button onclick="partyTime()" class="buttonconfetti">
+        <img src="../static/media/partypopper.png" class="partypopper">
+        </button><audio id="confettiSound" src="{{ url_for('static', filename='../static/media/confetti-pop.mp3') }}"></audio>
 
 
 </body>
