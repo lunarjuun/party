@@ -2,7 +2,6 @@
 ### Dominic Aramis, 2IMB
 
 A browser-based Blackjack game built using JavaScript, ran on a python waitress server.
-
 My project was created with the goal of learning about server hosting, JavaScript, and databases using MariaDB.
 
 ## Target Audience
