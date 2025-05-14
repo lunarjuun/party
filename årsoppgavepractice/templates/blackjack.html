@@ -19,7 +19,7 @@
         </div>
 
         <h2 class="players"> You: <span id="your-sum"></span></h2>
-        <div id="your-cards"></div>
+        <div id="your-cards" class="yourcards"></div>
 
         <br>
         <button id="hit">Hit</button>
@@ -30,15 +30,13 @@
     <div class="botHalf">
         <button id="playAgain" class="playagain">Play Again?</button>
 
-                <div class="submitScore">
-                    <form action="/save_score", method="get" id="submitScore">
-                        <input type="text" id="username" placeholder="Name" name="username">
-                        <input type="text" id="score" placeholder="Score" name="score">
-                </div>
+            <div class="submitScore">
+                <form action="/save_score" method="post" id="submitScore">
+                    <input type="text" id="name" placeholder="Name" name="name" required>
+                    <input type="text" id="score" placeholder="Score" name="score" required>
                     <button type="submit">Save score</button>
-
-
-        </form>
+                </form>
+</div>
     </div>
         <a href="index.html">
             <button class="playagain">Leave</button>
