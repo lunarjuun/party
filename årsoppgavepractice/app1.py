@@ -27,7 +27,7 @@ def score():
         host="localhost",
         user="dom",
         password="dom123",
-        database="scores",
+        database="leaderboard",
         port=3306
     )
 
