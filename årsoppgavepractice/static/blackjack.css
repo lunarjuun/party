@@ -62,6 +62,21 @@ h2, p, button {
     margin-left: -60px;
 }
 
+.goHome {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(151, 6, 35);
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    position: fixed;
+    margin-top: 392px;
+    margin-left: -35px;
+}
+
 /* Annoying Dealer */
 
 .harley {
@@ -124,4 +139,10 @@ h2, p, button {
         padding-top: 18px;
         height: 400px;
     }
+
+    .goHome {
+        margin-top: 24em;
+    }
+
+    
 }
