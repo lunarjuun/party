@@ -7,7 +7,7 @@
     <title>Index</title>
 </head>
 <body class="indexPage">
-    <img src="" alt="A gif of the dealer from a previous project." id="toggleImage">
+    <img src="{{ url_for('static', filename='media/dealer/har1.gif') }}" alt="A gif of the dealer from a previous project." id="toggleImage">
 
     <div class="topText">
         <h1> Play Blackjack </h1>
@@ -27,6 +27,8 @@
 </body>
 <script>
     const audioPath = "{{ url_for('static', filename='media/confetti-pop.mp3') }}";
+    const img1 = "{{ url_for('static', filename='media/dealer/har1.gif') }}";
+    const img2 = "{{ url_for('static', filename='media/dealer/har2.gif') }}";
 </script>
 <script src="{{ url_for('static', filename='script.js') }}"></script>
 </html>

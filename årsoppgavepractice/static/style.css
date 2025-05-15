@@ -28,6 +28,13 @@ body {
 h1 {
     font-size: 90px;
     font-family: 'times new roman';
+    margin-top: 5px;
+    text-shadow: 8px 8px 30px;
+}
+
+p {
+    text-shadow: 4px 4px 10px;
+    font-weight: bold;
 }
 
 .indexPage {
@@ -36,24 +43,46 @@ h1 {
 }
 
 .playGame {
+    margin-top: 40px;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: bolder;
     font-style: italic;
-    background-color: rgb(151, 6, 35);
+    background-color: #910505;
     cursor: pointer;
     padding: 40px;
     padding-left: 60px;
     padding-right: 60px;
-    font-family: fantasy;
-    letter-spacing: 3px;
+    font-family: 'times new roman';
+    text-shadow: 8px 8px 30px;
 }
 
 .topText {
     padding-bottom: 40px;
+    background-color: #910505;
+    max-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding-top: 30px;
 }
 
 .topP {
     font-size: 30px;
+}
+
+#toggleImage {
+    height: 15rem;
+    padding-top: 50px;
+}
+
+.buttonconfetti {
+    opacity: 0%;
+    background-color: black;
+}
+
+.buttonconfetti:hover {
+    opacity: 100%;
 }
 
 /* ///////////// MEDIA QUERIES //////////// */
