@@ -3,7 +3,7 @@ body, html {
     text-align: center;
     margin: 0;
     overflow: hidden;
-    zoom: 96%;
+    zoom: 90%;
 }
 
 h2 {
@@ -54,27 +54,12 @@ h2, p, button {
     background-color: rgb(151, 6, 35);
     cursor: pointer;
     position: fixed;
-    top: 50%;
+    top: 93%;
     left: 50%;
     width: auto;
     position: fixed;
-    margin-top: 392px;
+    justify-content: end;
     margin-left: -60px;
-}
-
-.goHome {
-    margin-top: 40px;
-    font-size: 20px;
-    font-weight: bold;
-    font-style: italic;
-    background-color: rgb(151, 6, 35);
-    cursor: pointer;
-    top: 50%;
-    left: 50%;
-    width: auto;
-    position: fixed;
-    margin-top: 392px;
-    margin-left: -35px;
 }
 
 /* Annoying Dealer */
