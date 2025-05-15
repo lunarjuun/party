@@ -1,7 +1,5 @@
-.body {
-    /* background-image: "{{ url_for('static', filename='media/blackjack_media/background_image.jpg') }}"; */
+body {
     background-image: url("media/blackjack_media/background-image-dark.jpg");
-    background-color: rgb(5, 78, 5);
 }
 
 .partypopper {
@@ -29,7 +27,7 @@
 
 h1 {
     font-size: 90px;
-    font-family: fantasy;
+    font-family: 'times new roman';
 }
 
 .indexPage {

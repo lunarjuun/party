@@ -25,7 +25,6 @@ function buildDeck() {
             deck.push(values[j] + "-" + types[i]); // A-C, K-C, A-D, K-D.. osv, løkken går gjennom alle kort kombinasjonene
         }
     }
-    // console.log(deck)
 }
 
 function shuffleDeck() {
@@ -164,3 +163,30 @@ function reduceAce(playerSum, playerAceCount) {
     }
     return playerSum;
 }
+
+//////////////////////////////////////////////
+
+document.getElementById("submitScore").addEventListener("submit", function(e) {
+    e.preventDefault(); // Stop the form from reloading the page!
+
+    // Grab name and score from the inputs
+    const name = document.getElementById("name").value;
+    const score = document.getElementById("score").value;
+
+    // Send data to Flask using fetch()
+    fetch("/save_score", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded",
+        },
+        body: `name=${encodeURIComponent(name)}&score=${encodeURIComponent(score)}`
+    })
+    .then(response => response.text()) // Wait for Flask to reply
+    .then(data => {
+        alert(data); // Show the "Score saved!" message
+    })
+    .catch(error => {
+        alert("Failed to save score."); // If something breaks
+        console.error("Error:", error); // Show error in console
+    });
+});
