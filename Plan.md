@@ -1,3 +1,5 @@
+Noen ting jeg kan vise fram på fagsamtale
+
 -	Push/pull changes
 -	Check mariadb status
 -	Vise ip
