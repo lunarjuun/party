@@ -1,0 +1,11 @@
+-	Push/pull changes
+-	Check mariadb status
+-	Vise ip
+-	Vise serverstatus
+-	Vise database
+-	Starte venv
+-	Logge inn mysql som bruker/sudo
+-	Tydelig navigasjon
+-	Gode fargekontraster
+
+-	Legge til betting-system til spillet
