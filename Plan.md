@@ -10,4 +10,4 @@ Noen ting jeg kan vise fram på fagsamtale
 -	Tydelig navigasjon
 -	Gode fargekontraster
 
--	Legge til betting-system til spillet
+-	Gjøre ferdig betting-system i spillet
