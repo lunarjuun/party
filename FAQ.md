@@ -16,4 +16,10 @@ A: The database to save scores was made with mariadb on my Raspberry Pi.
 
 Q: What are you using to host the webserver?
 
-A: I started using waitress and it has been working well.
+A: I started using waitress and it has been working well. But while I was coding the website I only used a python server cause it actually updates when I refresh while waitress doesn't.
+
+---
+
+Q: Why Blackjack?
+
+A: Cause it's one of my favorite card games besides Solitaire, and it's pretty straight forward and easy to learn, cause most of the game is just luck and strategic decision making.
