@@ -44,22 +44,24 @@ p {
 }
 
 .playGame {
-    margin-top: 40px;
+    margin-top: auto;
     font-size: 40px;
     font-weight: bolder;
     font-style: italic;
-    background-color: #910505;
+    background-color: rgb(219, 0, 0);
     cursor: pointer;
     padding: 40px;
     padding-left: 60px;
     padding-right: 60px;
     font-family: 'times new roman';
     text-shadow: 8px 8px 30px;
+    text-decoration: none;
+    color: black;
 }
 
 .topText {
     padding-bottom: 30px;
-    background-color: #910505;
+    background-color: rgb(219, 0, 0);
     justify-content: center;
     display: flex;
     flex-direction: column;

@@ -6,3 +6,5 @@ CREATE TABLE leaderboard (
     score INT NOT NULL,
     submitted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+-- gjøre tilgjengelig i readme

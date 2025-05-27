@@ -24,7 +24,7 @@ def score():
 
     # Connect to the database
     conn = mysql.connector.connect(
-        host="localhost",
+        host="10.2.3.89",
         user="dom",
         password="dom123",
         database="leaderboard",

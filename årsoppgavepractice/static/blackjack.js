@@ -34,8 +34,26 @@ function shuffleDeck() {
         deck[i] = deck[j];
         deck[j] = temp;
     }
-    console.log(deck);
 }
+
+// const startingMoney = 50
+// let currentMoney
+
+// if (localStorage.getItem("CurrentMoney")) {
+//     currentMoney = localStorage.getItem("CurrentMoney")
+// } else {
+//     currentMoney = startingMoney
+// }
+
+// let currentBet
+
+// function updateMoney() {
+//     let displayed = document.getElementById("myMoney")
+//     displayed.innerText = "$" + String(currentMoney)
+
+//     localStorage.setItem("CurrentMoney", currentMoney)
+// };
+
 
 function startGame() {
     hidden = deck.pop() //fjerner et kort fra slutten av array
@@ -43,6 +61,7 @@ function startGame() {
     dealerAceCount += checkAce(hidden);
     // console.log(hidden);
     // console.log(dealerSum);
+    // updateMoney()
 
     while (dealerSum < 17) {
         //<img>
@@ -53,8 +72,6 @@ function startGame() {
         dealerAceCount += checkAce(card);
         document.getElementById("dealer-cards").append(cardImg);
     }
-
-    console.log(dealerSum)
 
     for (let i = 0; i < 2; i++) {
         let cardImg = document.createElement("img"); //lager img tag
@@ -104,22 +121,27 @@ function stay() {
     else if (dealerSum > 21) {
         message = "You Won.";
         dealerImage = "dealer-lose.png";
+        // currentMoney += currentBet*2
     }
     //du og dealer <= 21 vvvv
     else if (yourSum == dealerSum) {
         message = "You Tied.";
         dealerImage = "dealer-tie.png"
+        // currentMoney += currentBet
     }
 
     else if (yourSum > dealerSum) {
         message = "You Won.";
-        dealerImage = "dealer-lose.png";    
+        dealerImage = "dealer-lose.png";
+        // currentMoney += currentBet*2
     }
 
     else if (yourSum < dealerSum) {
         message = "You Lost.";
-        dealerImage = "dealer-win.png";
+        // dealerImage = "dealer-win.png";
     }
+
+    // updateMoney()
 
 
     document.querySelector(".harley").src = "static/media/dealer/" + dealerImage;
@@ -133,7 +155,6 @@ function stay() {
     document.getElementById("playAgain").addEventListener("click", function() {
         location.reload();
     });
-
 }
 
 function getValue(card) {
@@ -190,3 +211,4 @@ document.getElementById("submitScore").addEventListener("submit", function(e) {
         console.error("Error:", error); // Show error in console
     });
 });
+

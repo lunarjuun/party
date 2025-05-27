@@ -13,12 +13,10 @@
         <h1> Play Blackjack </h1>
         <p class="topP"> Web-server version of Blackjack. </p>
     </div>
+        <p> By Dominic 2IMB </p>
     <div class="container">
-    <a href="/blackjack">
-        <button class="playGame">PLAY GAME</button>
+    <a href="/blackjack" class="playGame" onclick="window.location.href='/blackjack'">PLAY GAME</a>
         </div>
-
-    </a>
         <button onclick="partyTime()" class="buttonconfetti">
         <img src="../static/media/partypopper.png" class="partypopper">
         </button><audio id="confettiSound" src="{{ url_for('static', filename='../static/media/confetti-pop.mp3') }}"></audio>
