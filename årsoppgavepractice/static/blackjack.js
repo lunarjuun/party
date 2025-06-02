@@ -36,23 +36,7 @@ function shuffleDeck() {
     }
 }
 
-// const startingMoney = 50
-// let currentMoney
 
-// if (localStorage.getItem("CurrentMoney")) {
-//     currentMoney = localStorage.getItem("CurrentMoney")
-// } else {
-//     currentMoney = startingMoney
-// }
-
-// let currentBet
-
-// function updateMoney() {
-//     let displayed = document.getElementById("myMoney")
-//     displayed.innerText = "$" + String(currentMoney)
-
-//     localStorage.setItem("CurrentMoney", currentMoney)
-// };
 
 
 function startGame() {

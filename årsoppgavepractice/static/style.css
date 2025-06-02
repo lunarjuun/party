@@ -5,8 +5,16 @@ body {
     zoom: 90%;
 }
 
-.partypopper {
-    width: 50px;
+.indexFooter {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    background-image: url("media/blackjack_media/redbackground.png");
+    background-size: cover;
+    padding: 10px;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 4px 4px 10px;
 }
 
 .container {
@@ -51,7 +59,8 @@ p {
     font-size: 40px;
     font-weight: bolder;
     font-style: italic;
-    background-color: rgb(219, 0, 0);
+    background-image: url("media/blackjack_media/redbackground.png");
+    background-size: cover;
     cursor: pointer;
     padding: 40px;
     padding-left: 60px;
@@ -60,17 +69,20 @@ p {
     text-shadow: 8px 8px 30px;
     text-decoration: none;
     color: black;
+    box-shadow: 4px 4px 10px;
 }
 
 .topText {
     padding-bottom: 30px;
-    background-color: rgb(219, 0, 0);
+    background-image: url("media/blackjack_media/redbackground.png");
+    background-size: cover;
     justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 5px;
     padding-top: 30px;
+    box-shadow: 4px 4px 10px;
 }
 
 .topP {

@@ -1,0 +1,20 @@
+body {
+    background-image: url("../static/media/blackjack_media/background-image.jpg");
+    background-size: contain;
+}
+
+.htpContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 600px;
+}
+
+h1, h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 23px;
+}
