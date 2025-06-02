@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>Index</title>
+    <title>Play Blackjack</title>
 </head>
 <body class="indexPage">
     <img src="{{ url_for('static', filename='media/dealer/har1.gif') }}" alt="A gif of the dealer from a previous project." id="toggleImage">
@@ -17,16 +17,12 @@
     <div class="container">
     <a href="/blackjack" class="playGame" onclick="window.location.href='/blackjack'">PLAY GAME</a>
         </div>
-        <button onclick="partyTime()" class="buttonconfetti">
-        <img src="../static/media/partypopper.png" class="partypopper">
-        </button><audio id="confettiSound" src="{{ url_for('static', filename='../static/media/confetti-pop.mp3') }}"></audio>
+
+<footer>
+    <a href="/howtoplay" class="blackjackFooter" onclick="window.location.href='/howtoplay'">How To Play</a>
+</footer>
 
 
 </body>
-<script>
-    const audioPath = "{{ url_for('static', filename='media/confetti-pop.mp3') }}";
-    const img1 = "{{ url_for('static', filename='media/dealer/har1.gif') }}";
-    const img2 = "{{ url_for('static', filename='media/dealer/har2.gif') }}";
-</script>
 <script src="{{ url_for('static', filename='script.js') }}"></script>
 </html>

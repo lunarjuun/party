@@ -1,5 +1,8 @@
 body {
-    background-image: url("media/blackjack_media/background-image-dark.jpg");
+    background-image: url("media/blackjack_media/casino-bokeh.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    zoom: 90%;
 }
 
 .partypopper {

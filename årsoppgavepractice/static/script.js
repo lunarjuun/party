@@ -11,8 +11,3 @@ document.addEventListener('DOMContentLoaded', () => {
     showingFirst = !showingFirst;
   }, 1500);
 });
-
-function partyTime() {
-    let sound = new Audio("static/media/confetti-pop.mp3"); // allows audio overlapping for spam
-    sound.play();
-}

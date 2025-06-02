@@ -13,8 +13,12 @@ def index():
 def blackjack():
     return render_template('blackjack.html')
 
+@app.route('/howtoplay')
+def howtoplay():
+    return render_template('howtoplay.html')
 
-@app.route('/save_score', methods=['POST'])
+
+@app.route('/save_score', methods=['POST']) 
 def score():
     username = request.form.get('name')  # henter data fra det som sier "name" (samme som id på js)
     score = request.form.get('score')
