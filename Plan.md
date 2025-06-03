@@ -1,14 +1,36 @@
-Noen ting jeg kan vise fram på fagsamtale
+# Plan til eksamen
 
-- Vise ferdigheter (skrive meg fram til ting) og forklare prosess
--	Push/pull changes
--	Check mariadb status
--	Vise ip (lin/win)
--	Vise serverstatus
--	Vise database contents o.l. inputs
--	Starte venv
--	Logge inn mysql som bruker/sudo
--	Tydelig navigasjon
--	Gode fargekontraster
+- Drift
+  - SSH
+  - Navigasjon
+  - Webservere (waitress/flask)
 
--	Gjøre ferdig betting-system i spillet
+- MariaDB/Mysql
+  - Logge inn (sudo/admin/gjest)
+  - Sjekke status
+  - Lage tabell
+  - Starte venv
+  - Vise databaseinnhold
+  - Lage bruker
+  - Osv...
+ 
+Utvikling
+  - Legge til vedding (commit push)
+  - Datatyper (arrays/loops)
+  - Testing/debugging
+
+-	IP/Drift
+  - Vise IP (lin/win)
+  - Firewall konfigurasjon (lin)
+
+---
+
+
+Åndsverksloven
+- Opphav/copyright
+
+Likestillingsloven
+- UU
+
+Personvern
+- Brukersikkerhet
