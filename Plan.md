@@ -1,10 +1,16 @@
-Noen ting jeg kan vise fram på fagsamtale
+# Plan til eksamen
 
-- Vise ferdigheter (skrive meg fram til ting) og forklare prosess
--	Push/pull changes
--	Check mariadb status
--	Vise ip (lin/win)
--	Vise serverstatus
+- MariaDB/Mysql
+  - Sjekke status
+  - Lage tabell
+  - Lage bruker
+  - Osv...
+
+  - 
+
+-	IP
+  - Vise IP (lin/win)
+  - Firewall (lin)
 -	Vise database contents o.l. inputs
 -	Starte venv
 -	Logge inn mysql som bruker/sudo
