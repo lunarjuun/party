@@ -17,4 +17,9 @@
 -	Tydelig navigasjon
 -	Gode fargekontraster
 
--	Gjøre ferdig betting-system i spillet
+Åndsverksloven
+- Opphav/copyright
+Likestillingsloven
+- UU
+Personvern
+- Brukersikkerhet
