@@ -2,7 +2,7 @@ var dealerSum = 0;
 var yourSum = 0;
 
 var dealerAceCount = 0;
-var yourAceCount = 0; // dette trengs pga ess som har enten verdi 11 eller 1
+var yourAceCount = 0; // dette trengs pga A som har enten verdi 11 eller 1
 
 var hidden;
 var deck;
@@ -17,7 +17,7 @@ window.onload = function() {
 
 function buildDeck() {
     let values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
-    let types = ["C", "D", "H", "S"]
+    let types = ["C", "D", "H", "S"] // clubs diamonds hearts spades
     deck = []
 
     for (let i = 0; i < types.length; i++) {
@@ -35,8 +35,6 @@ function shuffleDeck() {
         deck[j] = temp;
     }
 }
-
-
 
 
 function startGame() {
@@ -105,27 +103,22 @@ function stay() {
     else if (dealerSum > 21) {
         message = "You Won.";
         dealerImage = "dealer-lose.png";
-        // currentMoney += currentBet*2
     }
     //du og dealer <= 21 vvvv
     else if (yourSum == dealerSum) {
         message = "You Tied.";
         dealerImage = "dealer-tie.png"
-        // currentMoney += currentBet
     }
 
     else if (yourSum > dealerSum) {
         message = "You Won.";
         dealerImage = "dealer-lose.png";
-        // currentMoney += currentBet*2
     }
 
     else if (yourSum < dealerSum) {
         message = "You Lost.";
-        // dealerImage = "dealer-win.png";
     }
 
-    // updateMoney()
 
 
     document.querySelector(".harley").src = "static/media/dealer/" + dealerImage;
@@ -191,8 +184,8 @@ document.getElementById("submitScore").addEventListener("submit", function(e) {
         alert(data); // Show the "Score saved!" message
     })
     .catch(error => {
-        alert("Failed to save score."); // If something breaks
-        console.error("Error:", error); // Show error in console
+        alert("Failed to save score."); // just in case something breaks
+        console.error("Error:", error); // show error in console
     });
 });
 
