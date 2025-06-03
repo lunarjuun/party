@@ -4,6 +4,10 @@
 A browser-based Blackjack game built using JavaScript, ran on a Python server.
 My project was created with the goal of learning about server hosting, JavaScript, and databases using MariaDB.
 
+## Credits
+The source code for the majority of the game (primarily JS) was made by Kenny Yip Coding on Youtube. But I typed all the code myself, I just followed the tutorial step by step, and made some small changes. I coded everything else myself (HTML, CSS, Python)
+https://www.youtube.com/watch?v=bMYCWccL-3U&pp=ygURYmxhY2tqYWNrIHdpdGgganM%3D
+
 -----
 
 ## Equipment Used
