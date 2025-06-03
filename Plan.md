@@ -19,7 +19,9 @@
 
 Åndsverksloven
 - Opphav/copyright
+- 
 Likestillingsloven
 - UU
+- 
 Personvern
 - Brukersikkerhet
