@@ -1,13 +1,13 @@
-var dealerSum = 0;
-var yourSum = 0;
+let dealerSum = 0;
+let yourSum = 0;
 
-var dealerAceCount = 0;
-var yourAceCount = 0; // dette trengs pga A som har enten verdi 11 eller 1
+let dealerAceCount = 0;
+let yourAceCount = 0; // dette trengs pga A som har enten verdi 11 eller 1
 
-var hidden;
-var deck;
+let hidden;
+let deck;
 
-var canHit = true; // lar spilleren ta kort om din sum er mindre eller samme som 21
+let canHit = true; // lar spilleren ta kort om din sum er mindre eller samme som 21
 
 window.onload = function() {
     buildDeck();
